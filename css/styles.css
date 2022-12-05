@@ -1,0 +1,277 @@
+:root {
+    --primary-text-color: #212121;
+    --hover-focus-color: #2196F3;
+    --link-text-color: #757575;
+    --description-text-color: #212121;
+    --logo-text-color: #000000;
+    --footer-backgraund-color: #2F303A;
+    --primary-backgraund-color: #ffff;
+    --addres-number-color: #FFFFFF99;
+    --center-button-color: rgba(33, 150, 243, 1);
+    --center-button-backgraund: #F5F4FA;
+    --button--color: #188CE8;
+}
+
+
+
+/* body */
+
+
+body {
+    background-color: var(--primary-backgraund-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--h2-text-color);
+}
+
+.link {
+    text-decoration: none;    
+}
+
+
+.list {
+    list-style: none;
+}
+
+
+/* footer */
+
+
+.address {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--addres-number-color);
+}
+
+
+.footer-backgraund-color {
+    background-color: var(--footer-backgraund-color);
+}
+
+.address-strit {
+    color: var(--primary-backgraund-color);
+}
+
+
+.hover-address :hover , .hover-address :focus{
+    color: var(--hover-focus-color);
+}
+
+.hover-address {
+    font-style: normal;
+}
+
+.address-strit   {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+}
+
+.address-strit :focus{
+    color: var(--hover-focus-color);
+}
+
+/* center */
+
+
+.section-cursor 
+
+
+.center-button {
+    text-align: center;
+}
+
+
+.center-button button:hover , .center-button button:focus{
+    background: var(--hover-focus-color);
+    color: var(--primary-backgraund-color);
+}
+
+
+
+.profession {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--link-text-color);
+}
+
+
+.buttonn {
+    color: var(--description-text-color);
+    background-color: var(--center-button-backgraund);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+
+
+
+
+
+.description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* header */
+
+
+.button-nomber {
+    color: var(--link-text-color);
+}
+
+
+.button-gmail {
+    color: var(--link-text-color);
+}
+
+
+.header-button a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--description-text-color);
+}
+
+
+.header-button :hover , .header-button :focus{
+    color: var(--hover-focus-color);
+}
+
+
+.header-button .link.current {
+    color: var(--hover-focus-color); 
+}
+
+
+.header-button-nomber a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.header-button-nomber :hover , .header-button-nomber :focus{
+    color: var(--hover-focus-color);
+}
+
+
+/* logo */
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color:var(--logo-text-color);
+    font-family: Raleway;
+}
+
+.logo-two {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--primary-backgraund-color);
+    font-family: Raleway;
+}
+
+
+.logo-web {
+    color: var(--hover-focus-color);
+}
+
+
+/* INDEX.HTML */
+
+
+
+.business {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--primary-backgraund-color) ;
+    text-transform: uppercase;
+}
+
+
+.section-business {
+    background-color: var(--footer-backgraund-color);
+}
+
+
+.business-button {
+    text-align: center;
+    color: var(--primary-backgraund-color);
+    background-color: var(--hover-focus-color);
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em; 
+}
+
+
+.business-button:hover , .business-button:focus {
+    background-color: var(--button--color);
+    color: var(--primary-backgraund-color);
+}
+
+
+.details {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+
+.descriptionhtml {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--link-text-color);
+}
+
+
+.about-us {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-text-color); 
+}
+
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+
+
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    color: var(--description-text-color);
+}
+
+
+.name-description {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    color: var(--link-text-color);
+}
+
+
+.section-team {
+    background-color: var(--center-button-backgraund);
+}
